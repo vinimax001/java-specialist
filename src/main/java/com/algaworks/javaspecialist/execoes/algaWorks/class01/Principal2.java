@@ -1,4 +1,4 @@
-package com.algaworks.javaspecialist.execoes.class01;
+package com.algaworks.javaspecialist.execoes.algaWorks.class01;
 
 public class Principal2 {
     public static void main(String[] args) {
