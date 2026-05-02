@@ -16,13 +16,15 @@ public class Program {
             while (sc.hasNextLine()) {
                 System.out.println(sc.nextLine());
             }
-        } catch (FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e) {
             System.out.println("Error opening file: " + e.getMessage());
-        } finally {
+        }
+        finally {
             if (sc != null){
                 sc.close();
-                System.out.println("Finally block executed.");
             }
+            System.out.println("Finally block executed.");
         }
     }
 }

@@ -1,6 +1,5 @@
 package com.algaworks.javaspecialist.execoes.nelioAlves.class01.application;
 
-import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -13,9 +12,11 @@ public class Program {
             String[] vect = sc.nextLine().split(" ");
             int position = sc.nextInt();
             System.out.println(vect[position]);
-        } catch (ArrayIndexOutOfBoundsException e) {
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Invalid Position");
-        } catch (InputMismatchException e) {
+        }
+        catch (InputMismatchException e) {
             System.out.println("Input error.");
         }
 
